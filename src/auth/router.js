@@ -9,10 +9,9 @@ const auth = require('./middleware.js');
 const oauth = require('./oauth/google.js');
 
 
-newRouter.get('/public-stuff'), (req, res) => {
-  console.log('In the public stuff route')
+authRouter.get('/public-stuff', (req, res, next) => {
   res.status(200).send('In the public stuff route');
-}
+})
 
 newRouter.get('/hidden-stuff'), auth, (req,res) => {
   res.status(200).send('In the public stuff route');

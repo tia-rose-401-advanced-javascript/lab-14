@@ -11,6 +11,7 @@ module.exports = (capability) => {
 
       switch (authType.toLowerCase()) {
         case 'basic':
+          console.log(authString);
           return _authBasic(authString);
         case 'bearer':
           return _authBearer(authString);
