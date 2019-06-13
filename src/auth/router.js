@@ -9,14 +9,6 @@ const auth = require('./middleware.js');
 const oauth = require('./oauth/google.js');
 
 
-authRouter.get('/public-stuff', (req, res, next) => {
-  res.status(200).send('In the public stuff route');
-})
-
-newRouter.get('/hidden-stuff'), auth, (req,res) => {
-  res.status(200).send('In the public stuff route');
-}
-
 authRouter.post('/signup', (req, res, next) => {
   let user = new User(req.body);
   user.save()
