@@ -6,7 +6,7 @@ Access Control
 ### Author: Tia Rose
 
 ### Links and Resources
-* [submission PR](http://xyz.com)
+* [submission PR](https://github.com/tia-rose-401-advanced-javascript/lab-14/pull/1)
 * [travis](http://xyz.com)
 * [back-end](https://afternoon-citadel-27753.herokuapp.com/) (when applicable)
 e)
