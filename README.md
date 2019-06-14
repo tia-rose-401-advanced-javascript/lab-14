@@ -45,4 +45,4 @@ Usage Notes or examples
 
 #### UML
 
-![UML 14](./assets/UML_14.jpg)
+![UML 14](./assets/UML_14.JPG)
